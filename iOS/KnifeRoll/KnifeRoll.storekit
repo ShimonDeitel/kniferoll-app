@@ -1,0 +1,44 @@
+{
+  "identifier" : "KnifeRoll",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : []
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "kniferoll_pro_group",
+      "localizations" : [],
+      "name" : "KnifeRoll Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "kniferoll_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlock Sharpening-schedule reminders and edge-log history",
+              "displayName" : "KnifeRoll Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.kniferoll.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "KnifeRoll Pro Monthly",
+          "subscriptionGroupID" : "kniferoll_pro_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
